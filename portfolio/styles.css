@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 690px;
+    background-color: #271A1A;
+    color: white;
+}
+.header h2{
+    margin-top: 15px;
+    line-height: 20px;
+}
+.header img{
+    width: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.middle{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    margin:100px 250px 0 200px;
+    font-size: large;
+}
+.text h2{
+    padding-bottom: 20px;
+}
+#home h3{
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+#hom{
+    padding-top: 130px ;
+
+}
+#home p{
+    font-weight: bold;
+}
+#home img{
+    width: 20px;
+    margin: 20px 20px 0px 20px;
+}
+.middle img{
+    width: 450px;
+}
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    background-color: #322020;
+    color: white;
+    padding: 3rem 5rem 24rem 4rem;
+    position:absolute;
+    right: 0;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+.sidebar a:hover{
+    color:white;
+    text-decoration:underline ;
+}
+.footer{
+    background-color: #271A1A;
+    position: relative;
+    bottom: 0;
+    padding: 0.75rem 5rem;
+}
+.icons{
+   display: flex;
+   flex-direction: row;
+   padding-left: 40rem;
+}
+.icons img{
+    width: 20px;
+    color: white;
+    filter: brightness(0) invert(1);
+    padding: 7px 10px 5px 8px;
+}
+.copyright{
+    color:white;
+    padding-left: 38.5rem;
+    padding-bottom: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 300px 0 100px;
+}
+.box{
+    margin: 10px 0 17px 0;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-color: #322020;
+    padding :10px 10px 10px 10px;
+}
+.box p{
+    margin-top: 10px;
+    justify-content: left;
+    font-size: medium;
+}
+.detail{
+    margin-left: 20px;
+    color: #524242;
+}
+.box img{
+    width:200px
+}
